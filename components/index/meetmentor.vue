@@ -3,8 +3,8 @@
     <p class="title-text">
       MEET THE MENTORS
     </p>
-    <div class="mt-5 container">
-      <b-row cols="1" cols-md="4">
+    <div class="mt-5 container-fluid mentor-div">
+      <b-row cols="2" cols-md="4">
         <cardmentor :mentor="'ABCD'" :img="'https://picsum.photos/400/400/?image=20'" :job="'head of anime industry'" />
         <cardmentor :mentor="'efgh'" :img="'https://picsum.photos/400/400/?image=20'" :job="'head of anime industry'" />
         <cardmentor :mentor="'ijkl'" :img="'https://picsum.photos/400/400/?image=20'" :job="'head of anime industry'" />
@@ -60,5 +60,11 @@ Cardmentord>
 }
 .button-mentor:hover {
   background-color: #f79021;
+}
+@media (min-width:767px) {
+  .mentor-div {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 }
 </style>
