@@ -12,11 +12,13 @@
       </b-row>
     </div>
     <div class="d-flex justify-content-center">
-      <b-button class="button-mentor d-flex align-items-center">
-        <p class="mx-auto">
-          SEE ALL THE MENTORS
-        </p>
-      </b-button>
+      <nuxt-link to="/mentor">
+        <b-button class="button-mentor d-flex align-items-center">
+          <p class="mx-auto">
+            SEE ALL THE MENTORS
+          </p>
+        </b-button>
+      </nuxt-link>
     </div>
   </section>
 </template>

@@ -1,14 +1,16 @@
 <template>
-  <b-col>
-    <b-card img-top style="border: none; border-radius: 20px;" :img-src="img">
-      <b-card-title class="title-card">
-        {{ mentor }}
-      </b-card-title>
-      <b-card-text class="sub-title-card">
-        {{ job }}
-      </b-card-text>
-    </b-card>
-  </b-col>
+  <nuxt-link to="/mentor/mentor">
+    <b-col>
+      <b-card img-top style="border: none; border-radius: 20px;" :img-src="img">
+        <b-card-title class="title-card">
+          {{ mentor }}
+        </b-card-title>
+        <b-card-text class="sub-title-card">
+          {{ job }}
+        </b-card-text>
+      </b-card>
+    </b-col>
+  </nuxt-link>
 </template>
 
 <script>
