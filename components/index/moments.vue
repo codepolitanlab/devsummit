@@ -6,8 +6,8 @@
       </p>
     </div>
     <div class="p-4 container-fluid moments-div mt--2">
-      <b-row cols="2" cols-md="4">
-        <b-col>
+      <b-row class="justify-content-center">
+        <b-col class="col-6 col-md-3">
           <b-img
             class="mb-3"
             thumbnail
@@ -15,11 +15,11 @@
             fluid
             width="400"
             height="200"
-            src="https://picsum.photos/250/250/?image=54"
-            alt="Image 1"
+            src="/img/1.jpg"
+            alt="Moments"
           />
         </b-col>
-        <b-col>
+        <b-col class="col-6 col-md-3">
           <b-img
             class="mb-3"
             thumbnail
@@ -27,11 +27,11 @@
             fluid
             width="400"
             height="200"
-            src="https://picsum.photos/250/250/?image=58"
-            alt="Image 2"
+            src="/img/2.jpg"
+            alt="Moments"
           />
         </b-col>
-        <b-col>
+        <b-col class="col-6 col-md-3">
           <b-img
             class="mb-3"
             thumbnail
@@ -39,11 +39,11 @@
             fluid
             width="400"
             height="200"
-            src="https://picsum.photos/250/250/?image=59"
-            alt="Image 3"
+            src="/img/3.jpg"
+            alt="Moments"
           />
         </b-col>
-        <b-col>
+        <b-col class="col-6 col-md-3">
           <b-img
             class="mb-3"
             thumbnail
@@ -51,11 +51,11 @@
             fluid
             width="400"
             height="200"
-            src="https://picsum.photos/250/250/?image=59"
-            alt="Image 3"
+            src="/img/4.jpg"
+            alt="Moments"
           />
         </b-col>
-        <b-col>
+        <b-col class="col-6 col-md-3">
           <b-img
             class="mb-3"
             thumbnail
@@ -63,11 +63,11 @@
             fluid
             width="400"
             height="200"
-            src="https://picsum.photos/250/250/?image=54"
-            alt="Image 1"
+            src="/img/5.jpg"
+            alt="Moments"
           />
         </b-col>
-        <b-col>
+        <b-col class="col-6 col-md-3">
           <b-img
             class="mb-3"
             thumbnail
@@ -75,11 +75,11 @@
             fluid
             width="400"
             height="200"
-            src="https://picsum.photos/250/250/?image=58"
-            alt="Image 2"
+            src="/img/6.jpg"
+            alt="Moments"
           />
         </b-col>
-        <b-col>
+        <b-col class="col-6 col-md-3">
           <b-img
             class="mb-3"
             thumbnail
@@ -87,20 +87,8 @@
             fluid
             width="400"
             height="200"
-            src="https://picsum.photos/250/250/?image=59"
-            alt="Image 3"
-          />
-        </b-col>
-        <b-col>
-          <b-img
-            class="mb-3"
-            thumbnail
-            center
-            fluid
-            width="400"
-            height="200"
-            src="https://picsum.photos/250/250/?image=59"
-            alt="Image 3"
+            src="/img/7.jpg"
+            alt="Moments"
           />
         </b-col>
       </b-row>
