@@ -4,14 +4,17 @@
       MEET THE MENTORS
     </p>
     <div class="mt-5 container-fluid mentor-div">
-      <b-row cols="2" cols-md="4">
-        <cardmentor :mentor="'ABCD'" :img="'https://picsum.photos/400/400/?image=20'" :job="'head of anime industry'" />
-        <cardmentor :mentor="'efgh'" :img="'https://picsum.photos/400/400/?image=20'" :job="'head of anime industry'" />
-        <cardmentor :mentor="'ijkl'" :img="'https://picsum.photos/400/400/?image=20'" :job="'head of anime industry'" />
-        <cardmentor :mentor="'mnop'" :img="'https://picsum.photos/400/400/?image=20'" :job="'head of anime industry'" />
+      <b-row class="justify-content-center">
+        <cardmentor :mentor="'Alexander Makarov'" :img="'/img/alexander.jfif'" :job="'Lead Developer of Yii Framework'" />
+        <cardmentor :mentor="'Kresna Galuh'" :img="'/img/kresna.png'" :job="'CEO  of Codepolitan'" />
+        <cardmentor :mentor="'Taufan Aditya'" :img="'/img/taufan.jpg'" :job="'CEO of Refactory'" />
+        <cardmentor :mentor="'Puja Pramudya'" :img="'/img/puja.jpeg'" :job="'Co-founder of Radya Labs'" />
+        <cardmentor :mentor="'Mulia Nasution'" :img="'/img/mulia.jpg'" :job="'Co-founder of Refactory Indonesia'" />
+        <cardmentor :mentor="'Oscar Darmawan'" :img="'/img/oscar.jpeg'" :job="'CEO at Bitcoin Indonesia'" />
+        <cardmentor :mentor="'Muhammad Yulianto'" :img="'/img/yulianto.jpg'" :job="'Tech Lead Engineer at Importir.org'" />
       </b-row>
     </div>
-    <div class="d-flex justify-content-center">
+    <!-- <div class="d-flex justify-content-center">
       <nuxt-link to="/mentor">
         <b-button class="button-mentor d-flex align-items-center">
           <p class="mx-auto">
@@ -19,7 +22,7 @@
           </p>
         </b-button>
       </nuxt-link>
-    </div>
+    </div> -->
   </section>
 </template>
 
@@ -30,8 +33,7 @@ export default {
 }
 </script>
 
-<style scope
-Cardmentord>
+<style scoped>
 .title-text {
   height: 53px;
   top: 1525px;
